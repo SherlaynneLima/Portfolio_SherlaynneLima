@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="menu">
+            <a href="#perfil">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section id="perfil" class="perfil">
+            <img src="img/eu.jpeg" alt="">
+        </section>
+        <section class="sub-perfil">
+            <h1>Sherlaynne Lima</h1>
+            <h2>Analista de Dados & Desenvolvedora de Sistemas</h2>
+            <h3>BI • SQL • Power BI • Python • Desenvolvimento Web</h3>
+        </section>
+        <section id="sobre" class="sobre">
+            <h1>Sobre Mim</h1>
+            <p>Sou estudante da área de Tecnologia da Informação e atuo como Analista de Sistemas. Atualmente, trabalho
+                com o sistema TOTVS RM, prestando suporte aos usuários,
+                realizando manutenção, correção de problemas e implementando melhorias para otimizar os processos da
+                empresa. Também atuo na sustentação e evolução de outros sistemas internos,
+                sempre buscando aprimorar a experiência dos usuários. No dia a dia, utilizo ferramentas como SQL Server,
+                Power BI, Power Query, TOTVS RM, PHP, HTML, CSS, Bootstrap, Grafana, GitLab,
+                n8n e Canva, entre outras tecnologias conforme a necessidade dos projetos. Possuo experiência prática
+                nessas ferramentas e estou constantemente aprimorando meus conhecimentos para
+                expandir minhas habilidades técnicas e acompanhar a evolução da área de tecnologia.</p>
+        </section>
+        <section id="projetos" class="projetos">
+            <h1>Meus Projetos</h1>
+            <div class="card">
+                <img src="img/powerbi.webp" alt="">
+                <h2>Dashboard</h2>
+                <p>Desenvolvimento de dashboards e indicadores estratégicos para acompanhamento operacional e gerencial,
+                     transformando dados em informações para apoiar a tomada de decisão.</p>
+            </div>
+            <div class="card">
+                <img src="img/powerbi.webp" alt="">
+                <h2>Dashboard</h2>
+                <p>Desenvolvimento de dashboards e indicadores estratégicos para acompanhamento operacional e gerencial,
+                     transformando dados em informações para apoiar a tomada de decisão.</p>
+            </div>
+            <div class="card">
+                <img src="img/powerbi.webp" alt="">
+                <h2>Dashboard</h2>
+                <p>Desenvolvimento de dashboards e indicadores estratégicos para acompanhamento operacional e gerencial,
+                     transformando dados em informações para apoiar a tomada de decisão.</p>
+            </div>
+        </section>
+        <section id="contato" class="contato">
+        <h1>Entre em Contato</h1>
+        <form class="form-contato" id="formulario" onsubmit="enviarWhats(event)">
+            <div class="form-group">
+                <input placeholder="Nome" class="campo-form" id="nome">
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Digite sua Mensagem" rowns="4" rows="6"
+                    id="mensagem"></textarea>
+            </div>
+
+            <button type="submit" class="botao-form">Enviar Whatsapp</button>
+        </form>
+    </section>
+    </main>
+    <footer class="footer">
+        <p>© 2026 Portfólio. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
