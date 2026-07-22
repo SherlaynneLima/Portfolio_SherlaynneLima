@@ -241,3 +241,32 @@
     text-align: center;
     color: var(--escuroazul);
 }
+
+/*CSS dash Projetos*/
+
+.dash-powerbi{
+    width: 100%;
+    padding: 20px;
+    background-color: var(--claro2);
+}
+
+.dash-powerbi h1{
+    margin-top: 60px;
+    width: 100%;
+    color: var(--escuroazul);
+    font-size: 50px;
+    text-align: center;
+}
+
+.card-projetos{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 15px 30px;
+    border-radius: 16px;
+    background-color: var(--claro2);
+    cursor: pointer;
+    border: 1px solid rgba(23, 23, 57, 0.25);
+    transition: 0.3s; 
+}
+
