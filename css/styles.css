@@ -266,15 +266,12 @@
     padding: 20px;
     border-radius: 16px;
     background-color: var(--claro2);
-    cursor: pointer;
     border: 1px solid rgba(23, 23, 57, 0.25);
     transition: 0.3s; 
 }
 
 .card-projetos:hover{
     background-color: var(--claro);
-    transform: translatey(-5px);
-    box-shadow: 0 5px 10px rgba(197, 148, 194, 0.3);
 }
 
 .card-projetos img{
