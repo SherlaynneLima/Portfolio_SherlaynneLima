@@ -151,17 +151,19 @@
     border-radius: 15px 15px 0px 0px;
 }
 
-.card p{
-    text-align: center;
-    padding: 0px 5px 15px;
-    margin: 5px;
-    color: var(--escuroazul);
-}
-
 .card:hover{
     background-color: var(--claro);
     transform: translatey(-5px);
     box-shadow: 0 5px 10px rgba(197, 148, 194, 0.3);
+}
+
+.card a{
+    display: block;
+    text-align: center;
+    padding: 0px 5px 15px;
+    margin: 5px;
+    color: var(--escuroazul);
+    text-decoration: none;
 }
 
 .contato{
@@ -244,24 +246,35 @@
 
 /*CSS dash Projetos*/
 
-.dash-powerbi{
+.dash-powerbi,
+.dash-grafana{
+    display: inline-block;
     width: 100%;
     padding: 20px;
-    background-color: var(--claro2);
+    text-align: center;
 }
 
-.dash-powerbi h1{
-    margin-top: 60px;
+.dash-powerbi h1,
+.dash-grafana h1{
+    margin-top: 80px;
     width: 100%;
     color: var(--escuroazul);
     font-size: 40px;
     text-align: center;
 }
 
+.dash-powerbi h3,
+.dash-grafana h3{
+    margin: 30px;
+    font-size: 15px;
+    color: var(--escuroazul);
+    text-align: justify;
+}
+
 .card-projetos{
     display: inline-block;
     text-align: center;
-    width: 100%;
+    width: 350px;
     margin: 15px 2px;
     padding: 20px;
     border-radius: 16px;
@@ -272,34 +285,19 @@
 
 .card-projetos:hover{
     background-color: var(--claro);
+    transform: translatey(-5px);
+    box-shadow: 0 5px 10px rgba(197, 148, 194, 0.3);
 }
 
 .card-projetos img{
     width: 100%;
     max-width: 800px;
-}
-
-.responsive-iframe{
-    width: 100%;
-    height: 800px;
+    height: 200px;
+    
 }
 
 .card-projetos h2{
     font-size: 20px;
     margin: 5px;
     color: var(--escuroazul);
-}
-
-.card-projetos p{
-    text-decoration: none;
-    margin-bottom: 5px;
-    font-size: 16px;
-    color: var(--escuroazul);
-}
-
-@media screen and (max-width:400px){
-    .responsive-iframe{
-    width: 100%;
-    height: 250px;
-}
 }
