@@ -247,7 +247,8 @@
 /*CSS dash Projetos*/
 
 .dash-powerbi,
-.dash-grafana{
+.dash-grafana,
+.dash-canva{
     display: inline-block;
     width: 100%;
     padding: 20px;
@@ -255,7 +256,8 @@
 }
 
 .dash-powerbi h1,
-.dash-grafana h1{
+.dash-grafana h1,
+.dash-canva h1{
     margin-top: 80px;
     width: 100%;
     color: var(--escuroazul);
@@ -264,7 +266,8 @@
 }
 
 .dash-powerbi h3,
-.dash-grafana h3{
+.dash-grafana h3,
+.dash-canva h3{
     margin: 30px;
     font-size: 15px;
     color: var(--escuroazul);
