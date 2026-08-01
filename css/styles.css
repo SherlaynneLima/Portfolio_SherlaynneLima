@@ -283,6 +283,7 @@
     background-color: var(--claro2);
     border: 1px solid rgba(23, 23, 57, 0.25);
     transition: 0.3s; 
+    cursor: pointer;
 }
 
 .card-projetos:hover{
@@ -301,6 +302,11 @@
 .card-projetos h2{
     font-size: 20px;
     margin: 5px;
+    color: var(--escuroazul);
+}
+
+.card-projetos a{
+    text-decoration: none;
     color: var(--escuroazul);
 }
 
@@ -335,9 +341,26 @@
     border: none;
 }
 
-.dash-h1{
-    text-align: center;
+.dash {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
     color: var(--escuroazul);
-    margin: 10px 0px;
-    font-size: 16px;
+    margin: 10px 0;
+}
+
+.dash h1 {
+    flex: 1;
+    text-align: center;
+    font-size: 32px;
+}
+
+.dash a {
+    text-decoration: none;
+    background-color: var(--azul);
+    color: white;
+    margin-left: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
 }
