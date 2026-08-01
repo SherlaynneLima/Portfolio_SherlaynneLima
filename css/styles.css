@@ -327,3 +327,17 @@
     font-size: 16px;
     margin: 5px 0;
 }
+
+.responsive-iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    border: none;
+}
+
+.dash-h1{
+    text-align: center;
+    color: var(--escuroazul);
+    margin: 10px 0px;
+    font-size: 16px;
+}
