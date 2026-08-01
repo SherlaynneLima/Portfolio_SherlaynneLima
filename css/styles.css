@@ -247,7 +247,6 @@
 /*CSS dash Projetos*/
 
 .dash-powerbi,
-.dash-grafana,
 .dash-canva{
     display: inline-block;
     width: 100%;
@@ -303,4 +302,28 @@
     font-size: 20px;
     margin: 5px;
     color: var(--escuroazul);
+}
+
+.card-projetos2 {
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-projetos2 img{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-size: cover;
+}
+
+.card-projetos2 h2{
+    font-size: 30px;
+    margin: 5px 0px;
+}
+
+.card-projetos2 p{
+    font-size: 16px;
+    margin: 5px 0;
 }
