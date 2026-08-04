@@ -65,6 +65,7 @@
     display: inline-block;
     width: 100%;
     margin: -75px 0px;
+    text-align: center;
 }
 
 .sub-perfil h1{
@@ -85,6 +86,37 @@
     font-size: 14px;
     margin: 5px;
     color: var(--escuroazul);
+    
+}
+
+.sub-perfil a {
+    color: #0A66C2;
+    font-size: 32px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.sub-perfil a:hover {
+    color: var(--rosagold);
+    transform: translateY(-5px);
+}
+
+/* GitHub */
+.sub-perfil .github {
+    color: #24292E;
+}
+
+/* E-mail */
+.sub-perfil .email {
+    color: var(--escuroazul);
+}
+
+/* Hover */
+.redes-sociais a:hover {
+    color: var(--rosagold);
+    transform: translateY(-5px) scale(1.1);
 }
 
 .sobre{
@@ -113,6 +145,121 @@
 .sobre p:hover{
     background-color: var(--claro);
     transform: translate(-5px);
+}
+
+.tag1 {
+    padding: 1px 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color:var(--primaria);
+    color: white;
+    font-weight: bold;
+}
+
+.tag2 {
+    padding: 1px 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: rgb(231, 191, 17);
+    color: black;
+    font-weight: bold;
+}
+
+.tag3 {
+    padding: 1px 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: rgb(48, 121, 57);
+    color: white;
+    font-weight: bold;
+}
+
+.tag4 {
+    padding: 1px 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: rgb(62, 63, 62);
+    color: white;
+    font-weight: bold;
+}
+
+.tag5 {
+    padding: 1px 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: rgb(114, 55, 136);
+    color: white;
+    font-weight: bold;
+}
+
+.tag6 {
+    padding: 1px 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #a95226;
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width:712px) {
+    .tag1 {
+    padding: 1px 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color:var(--primaria);
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+}
+.tag2 {
+    padding: 1px 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: rgb(231, 191, 17);
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.tag3 {
+    padding: 1px 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: rgb(48, 121, 57);
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.tag4 {
+    padding: 1px 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: rgb(62, 63, 62);
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.tag5 {
+    padding: 1px 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: rgb(114, 55, 136);
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.tag6 {
+    padding: 1px 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #a95226;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+}
 }
 
 .projetos{
