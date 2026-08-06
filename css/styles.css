@@ -513,47 +513,47 @@
 }
 
 /* estilo página totvs */
-.totvs-divisor{
-    display: inline-flex;
+.introducao h1{
     margin-top: 100px;
-    width: 100%;
+    text-align: center;
+    color: var(--escuroazul);
+}
+
+.introducao p{
     text-align: justify;
-    justify-content: center;
+    margin: 20px;
+    color: var(--escuroazul);
 }
 
-.card-divisor{
-    width: 400px;
-    padding: 10px;
-    margin: 5px;
-    background-color: var(--claro2);
-    border-radius: 5px;
+.totvs-divisor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    padding: 20px;
 }
 
-.card-divisor h1{
+.card-divisor {
+    padding: 20px;
+    background: var(--claro2);
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card-divisor:hover {
+    transform: translateY(-5px);
+    background: var(--claro);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.card-divisor h1 {
     color: var(--escuroazul);
     font-size: 25px;
     text-align: center;
-    margin-bottom: 5px;
+     margin: 0 0 12px 0;
 }
 
 .card-divisor p {
     color: var(--azul);
     font-size: 14px;
-}
-
-@media screen and (max-width: 480px) {
-    .totvs-divisor{
-    display: inline-block;
-    margin-top: 100px;
-    width: 100%;
     text-align: justify;
-    justify-content: center;
-}
-    .card-divisor{
-        width: 100%;
-        padding: 10px;
-        margin: 5px;
-        background-color: var(--claro2);
-        border-radius: 5px;
-    }
 }
