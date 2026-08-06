@@ -511,3 +511,49 @@
     padding: 10px 15px;
     border-radius: 5px;
 }
+
+/* estilo página totvs */
+.totvs-divisor{
+    display: inline-flex;
+    margin-top: 100px;
+    width: 100%;
+    text-align: justify;
+    justify-content: center;
+}
+
+.card-divisor{
+    width: 400px;
+    padding: 10px;
+    margin: 5px;
+    background-color: var(--claro2);
+    border-radius: 5px;
+}
+
+.card-divisor h1{
+    color: var(--escuroazul);
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.card-divisor p {
+    color: var(--azul);
+    font-size: 14px;
+}
+
+@media screen and (max-width: 480px) {
+    .totvs-divisor{
+    display: inline-block;
+    margin-top: 100px;
+    width: 100%;
+    text-align: justify;
+    justify-content: center;
+}
+    .card-divisor{
+        width: 100%;
+        padding: 10px;
+        margin: 5px;
+        background-color: var(--claro2);
+        border-radius: 5px;
+    }
+}
