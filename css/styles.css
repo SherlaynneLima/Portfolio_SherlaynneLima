@@ -20,6 +20,8 @@
     --claro: #e2e8f0;
     --claro2: #f0ecec6b;
     --vidro: rgba(255, 255, 255, 0.1);
+    --fontepadrao-tam: 20px;
+    --fontetexto-tam:16px;
 }
 
 .cabecalho {
@@ -538,15 +540,28 @@
 
 .introducao p{
     text-align: justify;
+    font-size: var(--fontetexto-tam);
     margin: 20px;
     color: var(--escuroazul);
 }
 
+.subtitulo{
+    font-weight: bold;
+    color: var(--escuroazul);
+    font-size: var(--fontepadrao-tam);
+}
+
 .totvs-divisor {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(2, minmax(420px, 1fr));
+    gap: 24px;
     padding: 20px;
+}
+
+@media (max-width: 900px) {
+    .totvs-divisor {
+        grid-template-columns: 1fr;
+    }
 }
 
 .card-divisor {
@@ -583,3 +598,11 @@
     height: 32px;
     object-fit: contain;
 }
+
+.card-divisor img{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
