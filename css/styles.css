@@ -74,6 +74,8 @@
     text-align: center;
     color: var(--escuroazul);
     font-weight: bold;
+    opacity: 0;
+    transform: translateY(30px);
 }
 
 .sub-perfil h2{
@@ -81,6 +83,8 @@
     font-size: 16px;
     margin: 5px;
     color: var(--escuroazul);
+    opacity: 0;
+    transform: translateY(30px);
 }
 
 .sub-perfil h3{
@@ -88,6 +92,8 @@
     font-size: 14px;
     margin: 5px;
     color: var(--escuroazul);
+    opacity: 0;
+    transform: translateY(30px);
     
 }
 
@@ -98,6 +104,14 @@
     display: inline-block;
     margin-top: 15px;
     transition: 0.3s;
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.sub-perfil .mostrar {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 .sub-perfil a:hover {
@@ -147,6 +161,18 @@
 .sobre p:hover{
     background-color: var(--claro);
     transform: translate(-5px);
+}
+
+.sobre span {
+    opacity: 0;
+    transform: scale(0.5);
+    display: inline-block;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.sobre span.mostrar-tag {
+    opacity: 1;
+    transform: scale(1);
 }
 
 .tag1 {
@@ -285,7 +311,22 @@
     background-color: var(--claro2);
     cursor: pointer;
     border: 1px solid rgba(23, 23, 57, 0.25);
-    transition: 0.3s;
+    opacity: 0;
+    transform: translateY(80px);
+    transition: 
+        opacity 0.8s ease,
+        transform 0.8s ease;
+}
+
+.card.mostrar {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card.mostrar:hover {
+    background-color: var(--claro);
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(197, 148, 194, 0.3);
 }
 
 .card h2{
