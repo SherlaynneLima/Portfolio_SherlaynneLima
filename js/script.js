@@ -75,3 +75,22 @@ window.addEventListener("scroll", () => {
     }
 
 });
+
+//Animação do contato
+const contato = document.querySelector(".contato");
+
+window.addEventListener("scroll", () => {
+
+    const posicao = contato.getBoundingClientRect().top;
+
+    const alturaTela = window.innerHeight;
+
+    if (posicao < alturaTela - 100) {
+
+        setTimeout(() => {
+            contato.classList.add("mostrar");
+        }, 50);
+
+    }
+
+});
