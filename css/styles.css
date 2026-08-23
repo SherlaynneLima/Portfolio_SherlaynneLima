@@ -311,6 +311,7 @@
     border-radius: 16px;
     background-color: var(--claro2);
     cursor: pointer;
+    text-decoration: none;
     border: 1px solid rgba(23, 23, 57, 0.25);
     opacity: 0;
     transform: translateY(80px);
@@ -348,13 +349,12 @@
     box-shadow: 0 5px 10px rgba(197, 148, 194, 0.3);
 }
 
-.card a{
+.card p{
     display: block;
     text-align: center;
     padding: 0px 5px 15px;
     margin: 5px;
     color: var(--escuroazul);
-    text-decoration: none;
 }
 
 .contato{
@@ -488,6 +488,7 @@
     border: 1px solid rgba(23, 23, 57, 0.25);
     transition: 0.3s; 
     cursor: pointer;
+    text-decoration: none;
 }
 
 .card-projetos:hover{
@@ -509,7 +510,7 @@
     color: var(--escuroazul);
 }
 
-.card-projetos a{
+.card-projetos p{
     text-decoration: none;
     color: var(--escuroazul);
 }
