@@ -94,3 +94,39 @@ window.addEventListener("scroll", () => {
     }
 
 });
+
+// Apliação das imagens TOTVS
+const imagens = document.querySelectorAll(".card-divisor img");
+
+const fundo = document.createElement("div");
+
+fundo.classList.add("fundo-ampliacao");
+
+document.body.appendChild(fundo);
+
+
+const imagemAmpliada = document.createElement("img");
+
+imagemAmpliada.classList.add("imagem-ampliada");
+
+fundo.appendChild(imagemAmpliada);
+
+
+imagens.forEach((imagem) => {
+
+    imagem.addEventListener("click", () => {
+
+        imagemAmpliada.src = imagem.src;
+
+        fundo.classList.add("ativo");
+
+    });
+
+});
+
+
+fundo.addEventListener("click", () => {
+
+    fundo.classList.remove("ativo");
+
+});
